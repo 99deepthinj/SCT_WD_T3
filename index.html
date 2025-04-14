@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Interactive Quiz Game</h1>
+    <form id="quizForm">
+      
+      <!-- Question 1 -->
+      
+<div class="question" id="q1">
+    <p>1. Which of the following is the correct HTML tag to include a stylesheet?</p>
+    <label><input type="radio" name="q1" value="style"> &lt;style&gt;</label>
+    <label><input type="radio" name="q1" value="link"> &lt;link&gt;</label>
+    <label><input type="radio" name="q1" value="css"> &lt;css&gt;</label>
+    <label><input type="radio" name="q1" value="script"> &lt;script&gt;</label>
+  </div>
+
+      <!-- Question 2 -->
+      <div class="question" id="q2">
+        <p>2. Select all programming languages:</p>
+        <label><input type="checkbox" name="q2" value="JavaScript"> JavaScript</label>
+        <label><input type="checkbox" name="q2" value="HTML"> HTML</label>
+        <label><input type="checkbox" name="q2" value="CSS"> CSS</label>
+        <label><input type="checkbox" name="q2" value="Python"> Python</label>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="question" id="q3">
+        <p>3. What does CSS stand for?</p>
+        <input type="text" name="q3" placeholder="Type your answer here...">
+      </div>
+
+      <!-- Question 4 -->
+      <div class="question" id="q4">
+        <p>4. Which tag is used to define an unordered list in HTML?</p>
+        <label><input type="radio" name="q4" value="ul"> &lt;ul&gt;</label>
+        <label><input type="radio" name="q4" value="ol"> &lt;ol&gt;</label>
+        <label><input type="radio" name="q4" value="li"> &lt;li&gt;</label>
+        <label><input type="radio" name="q4" value="list"> &lt;list&gt;</label>
+      </div>
+
+      <!-- Question 5 -->
+      <div class="question" id="q5">
+        <p>5. Select all valid CSS properties:</p>
+        <label><input type="checkbox" name="q5" value="color"> color</label>
+        <label><input type="checkbox" name="q5" value="font-size"> font-size</label>
+        <label><input type="checkbox" name="q5" value="text-align"> text-align</label>
+        <label><input type="checkbox" name="q5" value="align-text"> align-text</label>
+      </div>
+
+      <!-- Question 6 -->
+      <div class="question" id="q6">
+        <p>6. What is the correct way to declare a JavaScript function?</p>
+        <label><input type="radio" name="q6" value="function myFunc() {}"> function myFunc() {}</label>
+        <label><input type="radio" name="q6" value="def myFunc():"> def myFunc():</label>
+        <label><input type="radio" name="q6" value="fun myFunc() {}"> fun myFunc() {}</label>
+        <label><input type="radio" name="q6" value="func myFunc() {}"> func myFunc() {}</label>
+      </div>
+
+      <!-- Question 7 -->
+      <div class="question" id="q7">
+        <p>7. In Python, what will <code>print(2 ** 3)</code> output?</p>
+        <label><input type="radio" name="q7" value="6"> 6</label>
+        <label><input type="radio" name="q7" value="8"> 8</label>
+        <label><input type="radio" name="q7" value="9"> 9</label>
+        <label><input type="radio" name="q7" value="5"> 5</label>
+      </div>
+
+      <!-- Question 8 -->
+      <div class="question" id="q8">
+        <p>8. Write an SQL query to select all data from a table named "students".</p>
+        <input type="text" name="q8" placeholder="Type your SQL query here...">
+      </div>
+
+      <input type="submit" value="Submit Quiz">
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
