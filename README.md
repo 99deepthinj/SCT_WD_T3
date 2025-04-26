@@ -1,5 +1,5 @@
 # SCT_WD_T3
-INTERACTIVE QUIZ
+**INTERACTIVE QUIZ**
 
 An engaging web-based quiz application built with HTML, CSS, and JavaScript. It supports various question types, including single-select, multi-select, and fill-in-the-blank, providing users with immediate feedback and a final score upon completion.
 
@@ -12,8 +12,8 @@ An engaging web-based quiz application built with HTML, CSS, and JavaScript. It 
 
 ## Technologies Used
 
-  HTML5
-  CSS3
+  HTML5|
+  CSS3|
   JavaScript (ES6+)
 
 ## Usage
