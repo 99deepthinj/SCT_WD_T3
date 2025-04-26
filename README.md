@@ -28,7 +28,7 @@ An engaging web-based quiz application built with HTML, CSS, and JavaScript. It 
 This project is licensed under the [MIT License](LICENSE).
 
 
-# OUTPUT:
+# Output:
 
 ![Image](https://github.com/user-attachments/assets/85c7d1dd-1a67-4431-b69d-a7e05d938c23)
 
